@@ -16,12 +16,12 @@ public class BioskopWithScanner15 {
             input.nextLine();
 
             penonton[baris-1][kolom-1] = nama;
+            
             System.out.print("Input penonton lainnya? (y/n): ");
             next = input.nextLine();
 
             if (next.equalsIgnoreCase("n")) {
                 break;
-                
             }
             
         }
