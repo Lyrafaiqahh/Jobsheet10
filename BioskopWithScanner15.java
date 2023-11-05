@@ -43,7 +43,7 @@ public class BioskopWithScanner15 {
                 if (bookingKursi[i][j]) {
                   System.out.print("X "); // Kursi terisi
                 } else {
-                  System.out.print("O "); // Kursi kosong
+                  System.out.print("*** "); // Kursi kosong
                 }
               }
               System.out.println(); // Pindah ke baris berikutnya
